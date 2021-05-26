@@ -35,6 +35,8 @@
 // #define party             0xF7D02F*
 //#define moreshine          0xF700FF*
 
+const int IRsend_PIN = D6;
+
 IRsend irsend;
 unsigned long valor;
 decode_results res;
